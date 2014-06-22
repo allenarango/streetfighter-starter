@@ -1,0 +1,12 @@
+body {
+	background: black;
+}
+#main {
+	display:block;
+	background: white;
+	vertical-align: center;
+	min-height: 500px;
+	margin-top: 110px;
+	min-width: 1200px;
+
+}
