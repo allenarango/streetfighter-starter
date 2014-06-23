@@ -7,6 +7,7 @@ body {
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
+  background-image:url('../images/background.jpg');
 }
 .ryu, .ryu-cool {
 	float: left;
@@ -52,12 +53,19 @@ body {
   bottom: 325px;
 }
 .directions {
-  display:inline-block;
-  float:right;
-  padding-right: 100px;
-  padding-top: 300px;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  /* background-color: white; */
+  /* opacity: .5; */
+  padding: 10px;
 }
 .directions p{
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 20px;
+  color: white;
 }
