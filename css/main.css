@@ -1,9 +1,18 @@
 body {
 	background: black;
 }
+.logo img {
+  width:250px;
+  padding-top: 5px;
+  padding-left: 5px;
+  bottom:0px;
+  margin-right: auto;
+  margin-left: auto;
+  float:center;
+  display:inherit;
+}
 .main {
   background-color: white;
-  margin-top: 110px;
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
@@ -53,16 +62,18 @@ body {
   bottom: 325px;
 }
 .directions {
-  display: inline-block;
+  display: inherit;
   position: absolute;
-  top: 5px;
-  right: 5px;
-  float: right;
-  margin-right: 20px;
+  bottom: 5px;
+  float: center;
+  margin-right: auto;
+  margin-left:auto;
   margin-top: 20px;
   /* background-color: white; */
   /* opacity: .5; */
-  padding: 10px;
+  padding: 40px;
+  padding-right: 100px;
+  text-align: center;
 }
 .directions p{
   padding-top: 5px;
